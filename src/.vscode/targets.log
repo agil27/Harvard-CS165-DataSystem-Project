@@ -1,0 +1,1312 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+/bin/sh: 1: cannot create .deps/rebuildstamp: Permission denied
+/bin/sh: 1: cannot create .deps/_cc.d: Permission denied
+ 
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Tue Nov 16 03:04:48 2021
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+SNAP_COMMON = /var/snap/code/common
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# makefile (from 'Makefile', line 37)
+DEP_CC := 
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'Makefile', line 18)
+INCLUDES = include
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/wyb/courses/cs165/project/cs165-project/src
+# makefile
+SHELL = /bin/sh
+# environment
+SNAP_DATA = /var/snap/code/81
+# makefile (from 'Makefile', line 12)
+O = 0
+# environment
+VTE_VERSION = 6003
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+JOURNAL_STREAM = 8:35952
+# 'override' directive (from 'Makefile', line 15)
+CFLAGS = -Wall -Wextra -pedantic -pthread -O$(O) -I$(INCLUDES)
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+SNAP_ARCH = amd64
+# makefile (from '.deps/server.d', line 1)
+MAKEFILE_LIST :=  Makefile .deps/db_manager.d .deps/utils.d .deps/threadpool.d .deps/column.d .deps/_cc.d .deps/io.d .deps/client.d .deps/table.d .deps/client_context.d .deps/parse.d .deps/server.d
+# automatic
+@F = $(notdir $@)
+# environment
+IM_CONFIG_PHASE = 1
+# environment
+USERNAME = wyb
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus,guid=9a7180b34db56916ddc4a40161936375
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# makefile (from 'Makefile', line 29)
+DEPFILES := .deps/db_manager.d .deps/utils.d .deps/threadpool.d .deps/column.d .deps/_cc.d .deps/io.d .deps/client.d .deps/table.d .deps/client_context.d .deps/parse.d .deps/server.d
+# environment
+MANAGERPID = 1567
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/wyb/courses/cs165/project/cs165-project/src
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/81/usr/share/glib-2.0/schemas
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/wyb/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+SESSION_MANAGER = local/wyb-VirtualBox:@/tmp/.ICE-unix/1823,unix/wyb-VirtualBox:/tmp/.ICE-unix/1823
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/wyb/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+SNAP = /snap/code/81
+# environment
+SNAP_VERSION = 3a6960b9
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+VSCODE_LOG_STACK = false
+# environment
+DISABLE_WAYLAND = 1
+# environment
+VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"VSCode","submitURL":"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=1a9d4b1a-33a0-4bd7-8b67-3e0f682d3bb4&iid=1a9d4b1a-33a0-4bd7-8b67-3e0f682d3bb4&sid=1a9d4b1a-33a0-4bd7-8b67-3e0f682d3bb4","uploadToServer":true}
+# environment
+INVOCATION_ID = 9cbc4cb71b7544989723a2691800d27d
+# makefile (from 'Makefile', line 16)
+LDFLAGS = 
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/81/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+SNAP_INSTANCE_KEY = 
+# environment
+PWD = /home/wyb/courses/cs165/project/cs165-project/src
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 1774
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = /home/wyb
+# makefile (from 'Makefile', line 27)
+DEPSDIR := .deps
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /home/wyb/.config/Code/CachedData/3a6960b964327f0e3882ce18fcebd07ed191b316
+# environment
+LOGNAME = wyb
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# environment
+SNAP_CONTEXT = RigSNVyI4ERiLSVxUlfN22bDqIqpy8nzT08oDJBgiqNsjangoqeB
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+SNAP_USER_COMMON = /home/wyb/snap/code/common
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# environment
+SNAP_REAL_HOME = /home/wyb
+# environment
+COLORTERM = truecolor
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# environment
+SNAP_USER_DATA = /home/wyb/snap/code/81
+# environment
+SHLVL = 1
+# makefile (from 'Makefile', line 9)
+CC = gcc -std=c99 -g -ggdb3
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-8343732c-ac51-461f-8ea2-9bfa1eb82a4e.sock
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = wyb
+# environment
+SNAP_REVISION = 81
+# makefile
+.DEFAULT_GOAL := all
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-7a75665c-1.62.2-main.sock
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+BREAKPAD_DUMP_LOCATION = /home/wyb/.config/Code/exthost Crash Reports
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# automatic
++F = $(notdir $+)
+# environment
+QT_ACCESSIBILITY = 1
+# 'override' directive
+.SHELLSTATUS := 2
+# default
+MAKEFILES := 
+# environment
+SNAP_COOKIE = RigSNVyI4ERiLSVxUlfN22bDqIqpy8nzT08oDJBgiqNsjangoqeB
+# automatic
+<F = $(notdir $<)
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+SNAP_NAME = code
+# environment
+LC_ALL = C
+# environment
+DBUS_STARTER_BUS_TYPE = session
+# makefile (from 'Makefile', line 17)
+LIBS = 
+# environment
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/b2eb08a9_7759_4464_a858_1e2b4f755e3a
+# automatic
+^F = $(notdir $^)
+# makefile (from 'Makefile', line 28)
+BUILDSTAMP := .deps/rebuildstamp
+# environment
+GNOME_TERMINAL_SERVICE = :1.98
+# default
+SUFFIXES := 
+# environment
+SNAP_REEXEC = 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# makefile (from 'Makefile', line 33)
+DEPCFLAGS = -MD -MF $(DEPSDIR)/$*.d -MP -DSOCK_PATH=$(SOCK_PATH)
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# makefile (from 'Makefile', line 23)
+SOCK_PATH = \"/tmp/cs165_unix_socket\"
+ 
+# environment
+LANG = C
+# environment
+TERM = xterm-256color
+# environment
+VSCODE_PID = 5418
+# environment
+DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=9a7180b34db56916ddc4a40161936375
+# variable set hash-table stats:
+# Load=136/1024=13%, Rehash=0, Collisions=19/229=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2053, inode 787430): 32 files, no impossibilities.
+# .deps (device 2053, inode 920066): 14 files, no impossibilities.
+
+# 46 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+%.o: %.c .deps/rebuildstamp
+#  recipe to execute (from 'Makefile', line 48):
+	$(CC) $(CFLAGS) $(DEPCFLAGS) -O$(O) -o $@ -c $<
+
+# 1 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+.deps/client.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-16 03:04:36.175638608
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/gcc/x86_64-linux-gnu/7/include/stdbool.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+db_manager.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/unistd.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/bits/libio.h:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/asm-generic/sockios.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-15 13:56:24
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/x86_64-linux-gnu/bits/fcntl.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+table.o: table.c /usr/include/stdc-predef.h include/table.h include/cs165_api.h /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/libc-header-start.h /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/bits/long-double.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h /usr/include/x86_64-linux-gnu/bits/waitflags.h /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/x86_64-linux-gnu/bits/floatn.h /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/include/x86_64-linux-gnu/bits/types/locale_t.h /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/x86_64-linux-gnu/bits/types/clock_t.h /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h /usr/include/x86_64-linux-gnu/bits/types/time_t.h /usr/include/x86_64-linux-gnu/bits/types/timer_t.h /usr/include/x86_64-linux-gnu/bits/stdint-intn.h /usr/include/endian.h /usr/include/x86_64-linux-gnu/bits/endian.h /usr/include/x86_64-linux-gnu/bits/byteswap.h /usr/include/x86_64-linux-gnu/bits/byteswap-16.h /usr/include/x86_64-linux-gnu/bits/uintn-identity.h /usr/include/x86_64-linux-gnu/sys/select.h /usr/include/x86_64-linux-gnu/bits/select.h /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h /usr/include/x86_64-linux-gnu/sys/sysmacros.h /usr/include/x86_64-linux-gnu/bits/sysmacros.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdbool.h /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__FILE.h /usr/include/x86_64-linux-gnu/bits/types/FILE.h /usr/include/x86_64-linux-gnu/bits/libio.h /usr/include/x86_64-linux-gnu/bits/_G_config.h /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h /usr/include/x86_64-linux-gnu/bits/stdio_lim.h /usr/include/x86_64-linux-gnu/bits/sys_errlist.h /usr/include/x86_64-linux-gnu/sys/stat.h /usr/include/x86_64-linux-gnu/bits/stat.h /usr/include/x86_64-linux-gnu/sys/mman.h /usr/include/x86_64-linux-gnu/bits/mman.h /usr/include/x86_64-linux-gnu/bits/mman-linux.h /usr/include/x86_64-linux-gnu/bits/mman-shared.h /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h /usr/include/x86_64-linux-gnu/bits/environments.h /usr/include/x86_64-linux-gnu/bits/confname.h /usr/include/x86_64-linux-gnu/bits/getopt_posix.h /usr/include/x86_64-linux-gnu/bits/getopt_core.h /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h /usr/include/linux/falloc.h /usr/include/ftw.h /usr/include/string.h /usr/include/strings.h /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h /usr/include/x86_64-linux-gnu/bits/local_lim.h /usr/include/linux/limits.h /usr/include/x86_64-linux-gnu/bits/posix2_lim.h /usr/include/x86_64-linux-gnu/bits/xopen_lim.h /usr/include/x86_64-linux-gnu/bits/uio_lim.h include/threadpool.h /usr/include/pthread.h /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/sched.h /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h /usr/include/x86_64-linux-gnu/bits/timex.h /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h /usr/include/x86_64-linux-gnu/bits/setjmp.h /usr/include/assert.h include/cs165_api.h include/io.h include/column.h include/io.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/stdio.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+all: client server
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/11=0%
+
+io.o: io.c /usr/include/stdc-predef.h include/io.h include/cs165_api.h /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/libc-header-start.h /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/bits/long-double.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h /usr/include/x86_64-linux-gnu/bits/waitflags.h /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/x86_64-linux-gnu/bits/floatn.h /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/include/x86_64-linux-gnu/bits/types/locale_t.h /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/x86_64-linux-gnu/bits/types/clock_t.h /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h /usr/include/x86_64-linux-gnu/bits/types/time_t.h /usr/include/x86_64-linux-gnu/bits/types/timer_t.h /usr/include/x86_64-linux-gnu/bits/stdint-intn.h /usr/include/endian.h /usr/include/x86_64-linux-gnu/bits/endian.h /usr/include/x86_64-linux-gnu/bits/byteswap.h /usr/include/x86_64-linux-gnu/bits/byteswap-16.h /usr/include/x86_64-linux-gnu/bits/uintn-identity.h /usr/include/x86_64-linux-gnu/sys/select.h /usr/include/x86_64-linux-gnu/bits/select.h /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h /usr/include/x86_64-linux-gnu/sys/sysmacros.h /usr/include/x86_64-linux-gnu/bits/sysmacros.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdbool.h /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__FILE.h /usr/include/x86_64-linux-gnu/bits/types/FILE.h /usr/include/x86_64-linux-gnu/bits/libio.h /usr/include/x86_64-linux-gnu/bits/_G_config.h /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h /usr/include/x86_64-linux-gnu/bits/stdio_lim.h /usr/include/x86_64-linux-gnu/bits/sys_errlist.h /usr/include/x86_64-linux-gnu/sys/stat.h /usr/include/x86_64-linux-gnu/bits/stat.h /usr/include/x86_64-linux-gnu/sys/mman.h /usr/include/x86_64-linux-gnu/bits/mman.h /usr/include/x86_64-linux-gnu/bits/mman-linux.h /usr/include/x86_64-linux-gnu/bits/mman-shared.h /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h /usr/include/x86_64-linux-gnu/bits/environments.h /usr/include/x86_64-linux-gnu/bits/confname.h /usr/include/x86_64-linux-gnu/bits/getopt_posix.h /usr/include/x86_64-linux-gnu/bits/getopt_core.h /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h /usr/include/linux/falloc.h /usr/include/ftw.h /usr/include/string.h /usr/include/strings.h /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h /usr/include/x86_64-linux-gnu/bits/local_lim.h /usr/include/linux/limits.h /usr/include/x86_64-linux-gnu/bits/posix2_lim.h /usr/include/x86_64-linux-gnu/bits/xopen_lim.h /usr/include/x86_64-linux-gnu/bits/uio_lim.h include/threadpool.h /usr/include/pthread.h /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/sched.h /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h /usr/include/x86_64-linux-gnu/bits/timex.h /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h /usr/include/x86_64-linux-gnu/bits/setjmp.h /usr/include/assert.h include/utils.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+client: client.o utils.o
+#  Implicit rule search has not been done.
+#  Last modified 2021-11-16 03:04:36.287619872
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/11=0%
+#  recipe to execute (from 'Makefile', line 60):
+	$(CC) $(CFLAGS) $(DEPCFLAGS) -o $@ $^ $(LDFLAGS) $(LIBS)
+
+/usr/include/linux/errno.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+utils.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: all clean distclean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.deps/io.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-16 03:04:37.103483508
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.deps/threadpool.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-16 03:04:37.175471569
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.deps/_cc.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-16 03:04:36.115648646
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/ftw.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+include/common.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-08 15:40:58.122478781
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/limits.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/sys/un.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+include/cs165_api.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+parse.o: parse.c /usr/include/stdc-predef.h /usr/include/string.h /usr/include/x86_64-linux-gnu/bits/libc-header-start.h /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/bits/long-double.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h /usr/include/x86_64-linux-gnu/bits/types/locale_t.h /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h /usr/include/strings.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdbool.h /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/x86_64-linux-gnu/bits/floatn.h /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/x86_64-linux-gnu/bits/types/clock_t.h /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h /usr/include/x86_64-linux-gnu/bits/types/time_t.h /usr/include/x86_64-linux-gnu/bits/types/timer_t.h /usr/include/x86_64-linux-gnu/bits/stdint-intn.h /usr/include/endian.h /usr/include/x86_64-linux-gnu/bits/endian.h /usr/include/x86_64-linux-gnu/bits/byteswap.h /usr/include/x86_64-linux-gnu/bits/byteswap-16.h /usr/include/x86_64-linux-gnu/bits/uintn-identity.h /usr/include/x86_64-linux-gnu/sys/select.h /usr/include/x86_64-linux-gnu/bits/select.h /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h /usr/include/x86_64-linux-gnu/sys/sysmacros.h /usr/include/x86_64-linux-gnu/bits/sysmacros.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/ctype.h include/cs165_api.h /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__FILE.h /usr/include/x86_64-linux-gnu/bits/types/FILE.h /usr/include/x86_64-linux-gnu/bits/libio.h /usr/include/x86_64-linux-gnu/bits/_G_config.h /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h /usr/include/x86_64-linux-gnu/bits/stdio_lim.h /usr/include/x86_64-linux-gnu/bits/sys_errlist.h /usr/include/x86_64-linux-gnu/sys/stat.h /usr/include/x86_64-linux-gnu/bits/stat.h /usr/include/x86_64-linux-gnu/sys/mman.h /usr/include/x86_64-linux-gnu/bits/mman.h /usr/include/x86_64-linux-gnu/bits/mman-linux.h /usr/include/x86_64-linux-gnu/bits/mman-shared.h /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h /usr/include/x86_64-linux-gnu/bits/environments.h /usr/include/x86_64-linux-gnu/bits/confname.h /usr/include/x86_64-linux-gnu/bits/getopt_posix.h /usr/include/x86_64-linux-gnu/bits/getopt_core.h /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h /usr/include/ftw.h /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h /usr/include/x86_64-linux-gnu/bits/local_lim.h /usr/include/linux/limits.h /usr/include/x86_64-linux-gnu/bits/posix2_lim.h include/threadpool.h /usr/include/pthread.h /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/sched.h /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h /usr/include/x86_64-linux-gnu/bits/setjmp.h /usr/include/assert.h include/parse.h include/cs165_api.h include/message.h include/client_context.h include/utils.h include/client_context.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.deps/server.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-16 03:04:36.387603144
+#  File has been updated.
+#  Successfully updated.
+
+distclean: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 70):
+	rm -rf $(DEPSDIR)
+
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.deps/client_context.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-16 03:04:36.779537568
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.deps/rebuildstamp:
+#  Implicit rule search has not been done.
+#  Last modified 2021-11-16 03:04:36.115648646
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 42):
+	mkdir -p $(@D)
+	touch $@
+
+# Not a target:
+client.c:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-16 01:23:48.551648461
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+threadpool.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/x86_64-linux-gnu/bits/_G_config.h:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/time.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/alloca.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-08 15:40:58.11447947
+#  File has been updated.
+#  Successfully updated.
+
+client.o: client.c .deps/rebuildstamp client.c /usr/include/stdc-predef.h /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/libc-header-start.h /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/bits/long-double.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h /usr/include/x86_64-linux-gnu/bits/waitflags.h /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/x86_64-linux-gnu/bits/floatn.h /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/x86_64-linux-gnu/bits/confname.h /usr/include/x86_64-linux-gnu/bits/getopt_posix.h /usr/include/x86_64-linux-gnu/bits/getopt_core.h /usr/include/string.h /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__FILE.h /usr/include/x86_64-linux-gnu/bits/types/FILE.h /usr/include/x86_64-linux-gnu/bits/libio.h /usr/include/x86_64-linux-gnu/bits/_G_config.h /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h /usr/include/x86_64-linux-gnu/bits/stdio_lim.h /usr/include/x86_64-linux-gnu/bits/sys_errlist.h /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/x86_64-linux-gnu/bits/types/clock_t.h /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h /usr/include/x86_64-linux-gnu/bits/types/time_t.h /usr/include/x86_64-linux-gnu/bits/types/timer_t.h /usr/include/x86_64-linux-gnu/bits/stdint-intn.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h /usr/include/x86_64-linux-gnu/sys/socket.h /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h /usr/include/x86_64-linux-gnu/bits/socket.h /usr/include/x86_64-linux-gnu/bits/socket_type.h /usr/include/x86_64-linux-gnu/bits/sockaddr.h /usr/include/x86_64-linux-gnu/asm/socket.h /usr/include/asm-generic/socket.h /usr/include/x86_64-linux-gnu/asm/sockios.h /usr/include/asm-generic/sockios.h /usr/include/x86_64-linux-gnu/sys/un.h include/common.h include/message.h include/utils.h /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h /usr/include/x86_64-linux-gnu/bits/fp-logb.h /usr/include/x86_64-linux-gnu/bits/fp-fast.h /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h /usr/include/x86_64-linux-gnu/bits/mathcalls.h
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'client'
+#  Last modified 2021-11-16 03:04:36.19163593
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := client.o
+# automatic
+# % := 
+# automatic
+# * := client
+# automatic
+# + := client.c .deps/rebuildstamp client.c /usr/include/stdc-predef.h /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/libc-header-start.h /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/bits/long-double.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h /usr/include/x86_64-linux-gnu/bits/waitflags.h /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/x86_64-linux-gnu/bits/floatn.h /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/x86_64-linux-gnu/bits/confname.h /usr/include/x86_64-linux-gnu/bits/getopt_posix.h /usr/include/x86_64-linux-gnu/bits/getopt_core.h /usr/include/string.h /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__FILE.h /usr/include/x86_64-linux-gnu/bits/types/FILE.h /usr/include/x86_64-linux-gnu/bits/libio.h /usr/include/x86_64-linux-gnu/bits/_G_config.h /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h /usr/include/x86_64-linux-gnu/bits/stdio_lim.h /usr/include/x86_64-linux-gnu/bits/sys_errlist.h /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/x86_64-linux-gnu/bits/types/clock_t.h /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h /usr/include/x86_64-linux-gnu/bits/types/time_t.h /usr/include/x86_64-linux-gnu/bits/types/timer_t.h /usr/include/x86_64-linux-gnu/bits/stdint-intn.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h /usr/include/x86_64-linux-gnu/sys/socket.h /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h /usr/include/x86_64-linux-gnu/bits/socket.h /usr/include/x86_64-linux-gnu/bits/socket_type.h /usr/include/x86_64-linux-gnu/bits/sockaddr.h /usr/include/x86_64-linux-gnu/asm/socket.h /usr/include/asm-generic/socket.h /usr/include/x86_64-linux-gnu/asm/sockios.h /usr/include/asm-generic/sockios.h /usr/include/x86_64-linux-gnu/sys/un.h include/common.h include/message.h include/utils.h /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h /usr/include/x86_64-linux-gnu/bits/fp-logb.h /usr/include/x86_64-linux-gnu/bits/fp-fast.h /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h /usr/include/x86_64-linux-gnu/bits/mathcalls.h
+# automatic
+# | := 
+# automatic
+# < := client.c
+# automatic
+# ^ := client.c .deps/rebuildstamp /usr/include/stdc-predef.h /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/libc-header-start.h /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/bits/long-double.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h /usr/include/x86_64-linux-gnu/bits/waitflags.h /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/x86_64-linux-gnu/bits/floatn.h /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/x86_64-linux-gnu/bits/confname.h /usr/include/x86_64-linux-gnu/bits/getopt_posix.h /usr/include/x86_64-linux-gnu/bits/getopt_core.h /usr/include/string.h /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__FILE.h /usr/include/x86_64-linux-gnu/bits/types/FILE.h /usr/include/x86_64-linux-gnu/bits/libio.h /usr/include/x86_64-linux-gnu/bits/_G_config.h /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h /usr/include/x86_64-linux-gnu/bits/stdio_lim.h /usr/include/x86_64-linux-gnu/bits/sys_errlist.h /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/x86_64-linux-gnu/bits/types/clock_t.h /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h /usr/include/x86_64-linux-gnu/bits/types/time_t.h /usr/include/x86_64-linux-gnu/bits/types/timer_t.h /usr/include/x86_64-linux-gnu/bits/stdint-intn.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h /usr/include/x86_64-linux-gnu/sys/socket.h /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h /usr/include/x86_64-linux-gnu/bits/socket.h /usr/include/x86_64-linux-gnu/bits/socket_type.h /usr/include/x86_64-linux-gnu/bits/sockaddr.h /usr/include/x86_64-linux-gnu/asm/socket.h /usr/include/asm-generic/socket.h /usr/include/x86_64-linux-gnu/asm/sockios.h /usr/include/asm-generic/sockios.h /usr/include/x86_64-linux-gnu/sys/un.h include/common.h include/message.h include/utils.h /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h /usr/include/x86_64-linux-gnu/bits/fp-logb.h /usr/include/x86_64-linux-gnu/bits/fp-fast.h /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h /usr/include/x86_64-linux-gnu/bits/mathcalls.h
+# automatic
+# ? := /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h /usr/include/x86_64-linux-gnu/bits/libio.h /usr/include/x86_64-linux-gnu/bits/_G_config.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=3/22=14%
+#  recipe to execute (from 'Makefile', line 48):
+	$(CC) $(CFLAGS) $(DEPCFLAGS) -O$(O) -o $@ -c $<
+
+include/io.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/strings.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/x86_64-linux-gnu/sys/socket.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+server: server.o parse.o utils.o db_manager.o client_context.o table.o column.o io.o threadpool.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 63):
+	$(CC) $(CFLAGS) $(DEPCFLAGS) -o $@ $^ $(LDFLAGS) $(LIBS)
+
+client_context.o: client_context.c /usr/include/stdc-predef.h include/client_context.h include/cs165_api.h /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/libc-header-start.h /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/bits/long-double.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h /usr/include/x86_64-linux-gnu/bits/waitflags.h /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/x86_64-linux-gnu/bits/floatn.h /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/include/x86_64-linux-gnu/bits/types/locale_t.h /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/x86_64-linux-gnu/bits/types/clock_t.h /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h /usr/include/x86_64-linux-gnu/bits/types/time_t.h /usr/include/x86_64-linux-gnu/bits/types/timer_t.h /usr/include/x86_64-linux-gnu/bits/stdint-intn.h /usr/include/endian.h /usr/include/x86_64-linux-gnu/bits/endian.h /usr/include/x86_64-linux-gnu/bits/byteswap.h /usr/include/x86_64-linux-gnu/bits/byteswap-16.h /usr/include/x86_64-linux-gnu/bits/uintn-identity.h /usr/include/x86_64-linux-gnu/sys/select.h /usr/include/x86_64-linux-gnu/bits/select.h /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h /usr/include/x86_64-linux-gnu/sys/sysmacros.h /usr/include/x86_64-linux-gnu/bits/sysmacros.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdbool.h /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__FILE.h /usr/include/x86_64-linux-gnu/bits/types/FILE.h /usr/include/x86_64-linux-gnu/bits/libio.h /usr/include/x86_64-linux-gnu/bits/_G_config.h /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h /usr/include/x86_64-linux-gnu/bits/stdio_lim.h /usr/include/x86_64-linux-gnu/bits/sys_errlist.h /usr/include/x86_64-linux-gnu/sys/stat.h /usr/include/x86_64-linux-gnu/bits/stat.h /usr/include/x86_64-linux-gnu/sys/mman.h /usr/include/x86_64-linux-gnu/bits/mman.h /usr/include/x86_64-linux-gnu/bits/mman-linux.h /usr/include/x86_64-linux-gnu/bits/mman-shared.h /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h /usr/include/x86_64-linux-gnu/bits/environments.h /usr/include/x86_64-linux-gnu/bits/confname.h /usr/include/x86_64-linux-gnu/bits/getopt_posix.h /usr/include/x86_64-linux-gnu/bits/getopt_core.h /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h /usr/include/linux/falloc.h /usr/include/ftw.h /usr/include/string.h /usr/include/strings.h /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h /usr/include/x86_64-linux-gnu/bits/local_lim.h /usr/include/linux/limits.h /usr/include/x86_64-linux-gnu/bits/posix2_lim.h /usr/include/x86_64-linux-gnu/bits/xopen_lim.h /usr/include/x86_64-linux-gnu/bits/uio_lim.h include/threadpool.h /usr/include/pthread.h /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/sched.h /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h /usr/include/x86_64-linux-gnu/bits/timex.h /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h /usr/include/x86_64-linux-gnu/bits/setjmp.h /usr/include/assert.h include/io.h include/column.h include/io.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.deps/table.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-16 03:04:36.8875195
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/x86_64-linux-gnu/asm/sockios.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-15 13:56:24
+#  File has been updated.
+#  Successfully updated.
+
+include/threadpool.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+include/client_context.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.deps/column.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-16 03:04:36.995501434
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/features.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/asm-generic/errno.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.deps/stamp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 42):
+	mkdir -p $(@D)
+	touch $@
+
+/usr/include/errno.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+table.c:
+ 
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+include/message.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-08 15:40:58.122478781
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+io.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/bits/sched.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+server.o: server.c /usr/include/stdc-predef.h /usr/include/errno.h /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/bits/long-double.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/x86_64-linux-gnu/bits/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/libc-header-start.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h /usr/include/x86_64-linux-gnu/bits/floatn.h /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h /usr/include/x86_64-linux-gnu/bits/types/time_t.h /usr/include/x86_64-linux-gnu/bits/types/timer_t.h /usr/include/x86_64-linux-gnu/bits/stdint-intn.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h /usr/include/x86_64-linux-gnu/sys/un.h /usr/include/x86_64-linux-gnu/bits/sockaddr.h /usr/include/x86_64-linux-gnu/sys/socket.h /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h /usr/include/x86_64-linux-gnu/bits/socket.h /usr/include/x86_64-linux-gnu/bits/socket_type.h /usr/include/x86_64-linux-gnu/asm/socket.h /usr/include/asm-generic/socket.h /usr/include/x86_64-linux-gnu/asm/sockios.h /usr/include/asm-generic/sockios.h /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h /usr/include/x86_64-linux-gnu/bits/confname.h /usr/include/x86_64-linux-gnu/bits/getopt_posix.h /usr/include/x86_64-linux-gnu/bits/getopt_core.h /usr/include/string.h /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h /usr/include/x86_64-linux-gnu/bits/fp-logb.h /usr/include/x86_64-linux-gnu/bits/fp-fast.h /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h /usr/include/x86_64-linux-gnu/bits/mathcalls.h include/common.h include/parse.h include/cs165_api.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdbool.h /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__FILE.h /usr/include/x86_64-linux-gnu/bits/types/FILE.h /usr/include/x86_64-linux-gnu/bits/libio.h /usr/include/x86_64-linux-gnu/bits/_G_config.h /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h /usr/include/x86_64-linux-gnu/bits/stdio_lim.h /usr/include/x86_64-linux-gnu/bits/sys_errlist.h /usr/include/x86_64-linux-gnu/sys/stat.h /usr/include/x86_64-linux-gnu/bits/stat.h /usr/include/x86_64-linux-gnu/sys/mman.h /usr/include/x86_64-linux-gnu/bits/mman.h /usr/include/x86_64-linux-gnu/bits/mman-linux.h /usr/include/x86_64-linux-gnu/bits/mman-shared.h /usr/include/ftw.h /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h /usr/include/x86_64-linux-gnu/bits/local_lim.h /usr/include/linux/limits.h /usr/include/x86_64-linux-gnu/bits/posix2_lim.h include/threadpool.h /usr/include/pthread.h /usr/include/endian.h /usr/include/x86_64-linux-gnu/bits/endian.h /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h /usr/include/x86_64-linux-gnu/bits/types/clock_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h /usr/include/x86_64-linux-gnu/bits/sched.h /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/x86_64-linux-gnu/bits/setjmp.h /usr/include/assert.h include/message.h include/client_context.h include/cs165_api.h include/message.h include/utils.h include/client_context.h include/threadpool.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+column.o: column.c /usr/include/stdc-predef.h include/column.h include/cs165_api.h /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/libc-header-start.h /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/bits/long-double.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h /usr/include/x86_64-linux-gnu/bits/waitflags.h /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/x86_64-linux-gnu/bits/floatn.h /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/include/x86_64-linux-gnu/bits/types/locale_t.h /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/x86_64-linux-gnu/bits/types/clock_t.h /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h /usr/include/x86_64-linux-gnu/bits/types/time_t.h /usr/include/x86_64-linux-gnu/bits/types/timer_t.h /usr/include/x86_64-linux-gnu/bits/stdint-intn.h /usr/include/endian.h /usr/include/x86_64-linux-gnu/bits/endian.h /usr/include/x86_64-linux-gnu/bits/byteswap.h /usr/include/x86_64-linux-gnu/bits/byteswap-16.h /usr/include/x86_64-linux-gnu/bits/uintn-identity.h /usr/include/x86_64-linux-gnu/sys/select.h /usr/include/x86_64-linux-gnu/bits/select.h /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h /usr/include/x86_64-linux-gnu/sys/sysmacros.h /usr/include/x86_64-linux-gnu/bits/sysmacros.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdbool.h /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__FILE.h /usr/include/x86_64-linux-gnu/bits/types/FILE.h /usr/include/x86_64-linux-gnu/bits/libio.h /usr/include/x86_64-linux-gnu/bits/_G_config.h /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h /usr/include/x86_64-linux-gnu/bits/stdio_lim.h /usr/include/x86_64-linux-gnu/bits/sys_errlist.h /usr/include/x86_64-linux-gnu/sys/stat.h /usr/include/x86_64-linux-gnu/bits/stat.h /usr/include/x86_64-linux-gnu/sys/mman.h /usr/include/x86_64-linux-gnu/bits/mman.h /usr/include/x86_64-linux-gnu/bits/mman-linux.h /usr/include/x86_64-linux-gnu/bits/mman-shared.h /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h /usr/include/x86_64-linux-gnu/bits/environments.h /usr/include/x86_64-linux-gnu/bits/confname.h /usr/include/x86_64-linux-gnu/bits/getopt_posix.h /usr/include/x86_64-linux-gnu/bits/getopt_core.h /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h /usr/include/linux/falloc.h /usr/include/ftw.h /usr/include/string.h /usr/include/strings.h /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h /usr/include/x86_64-linux-gnu/bits/local_lim.h /usr/include/linux/limits.h /usr/include/x86_64-linux-gnu/bits/posix2_lim.h /usr/include/x86_64-linux-gnu/bits/xopen_lim.h /usr/include/x86_64-linux-gnu/bits/uio_lim.h include/threadpool.h /usr/include/pthread.h /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/sched.h /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h /usr/include/x86_64-linux-gnu/bits/timex.h /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h /usr/include/x86_64-linux-gnu/bits/setjmp.h /usr/include/assert.h include/io.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/string.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/asm-generic/errno-base.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+include/table.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/stdlib.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/endian.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+include/column.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/bits/mman-linux.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+parse.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/bits/stat.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/bits/sockaddr.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/fcntl.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/pthread.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/x86_64-linux-gnu/sys/stat.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/asm-generic/socket.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-15 13:56:24
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/assert.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+server.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+db_manager.o: db_manager.c /usr/include/stdc-predef.h include/cs165_api.h /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/libc-header-start.h /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/bits/long-double.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h /usr/include/x86_64-linux-gnu/bits/waitflags.h /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/x86_64-linux-gnu/bits/floatn.h /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/include/x86_64-linux-gnu/bits/types/locale_t.h /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/x86_64-linux-gnu/bits/types/clock_t.h /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h /usr/include/x86_64-linux-gnu/bits/types/time_t.h /usr/include/x86_64-linux-gnu/bits/types/timer_t.h /usr/include/x86_64-linux-gnu/bits/stdint-intn.h /usr/include/endian.h /usr/include/x86_64-linux-gnu/bits/endian.h /usr/include/x86_64-linux-gnu/bits/byteswap.h /usr/include/x86_64-linux-gnu/bits/byteswap-16.h /usr/include/x86_64-linux-gnu/bits/uintn-identity.h /usr/include/x86_64-linux-gnu/sys/select.h /usr/include/x86_64-linux-gnu/bits/select.h /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h /usr/include/x86_64-linux-gnu/sys/sysmacros.h /usr/include/x86_64-linux-gnu/bits/sysmacros.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdbool.h /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__FILE.h /usr/include/x86_64-linux-gnu/bits/types/FILE.h /usr/include/x86_64-linux-gnu/bits/libio.h /usr/include/x86_64-linux-gnu/bits/_G_config.h /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h /usr/include/x86_64-linux-gnu/bits/stdio_lim.h /usr/include/x86_64-linux-gnu/bits/sys_errlist.h /usr/include/x86_64-linux-gnu/sys/stat.h /usr/include/x86_64-linux-gnu/bits/stat.h /usr/include/x86_64-linux-gnu/sys/mman.h /usr/include/x86_64-linux-gnu/bits/mman.h /usr/include/x86_64-linux-gnu/bits/mman-linux.h /usr/include/x86_64-linux-gnu/bits/mman-shared.h /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h /usr/include/x86_64-linux-gnu/bits/environments.h /usr/include/x86_64-linux-gnu/bits/confname.h /usr/include/x86_64-linux-gnu/bits/getopt_posix.h /usr/include/x86_64-linux-gnu/bits/getopt_core.h /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h /usr/include/linux/falloc.h /usr/include/ftw.h /usr/include/string.h /usr/include/strings.h /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h /usr/include/x86_64-linux-gnu/bits/local_lim.h /usr/include/linux/limits.h /usr/include/x86_64-linux-gnu/bits/posix2_lim.h /usr/include/x86_64-linux-gnu/bits/xopen_lim.h /usr/include/x86_64-linux-gnu/bits/uio_lim.h include/threadpool.h /usr/include/pthread.h /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/sched.h /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h /usr/include/x86_64-linux-gnu/bits/timex.h /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h /usr/include/x86_64-linux-gnu/bits/setjmp.h /usr/include/assert.h include/column.h include/cs165_api.h include/io.h include/io.h include/table.h include/client_context.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+client_context.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/bits/sysmacros.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 66):
+	rm -f client server *.o *~ *.bak core *.core $(SOCK_PATH)
+	rm -rf .deps
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/sys/sysmacros.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.deps/parse.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-16 03:04:36.523580393
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/bits/fcntl-linux.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+utils.o: utils.c /usr/include/stdc-predef.h /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/libc-header-start.h /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/bits/long-double.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/x86_64-linux-gnu/bits/types/__FILE.h /usr/include/x86_64-linux-gnu/bits/types/FILE.h /usr/include/x86_64-linux-gnu/bits/libio.h /usr/include/x86_64-linux-gnu/bits/_G_config.h /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h /usr/include/x86_64-linux-gnu/bits/stdio_lim.h /usr/include/x86_64-linux-gnu/bits/sys_errlist.h /usr/include/string.h /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/floatn.h /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/ctype.h /usr/include/endian.h /usr/include/x86_64-linux-gnu/bits/endian.h include/utils.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/bits/socket.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/linux/falloc.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+column.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/bits/mman.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/math.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/linux/limits.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+threadpool.o: threadpool.c /usr/include/stdc-predef.h include/threadpool.h /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/libc-header-start.h /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h /usr/include/x86_64-linux-gnu/bits/wordsize.h /usr/include/x86_64-linux-gnu/bits/long-double.h /usr/include/x86_64-linux-gnu/gnu/stubs.h /usr/include/x86_64-linux-gnu/gnu/stubs-64.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h /usr/include/x86_64-linux-gnu/bits/floatn.h /usr/include/x86_64-linux-gnu/bits/floatn-common.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h /usr/include/x86_64-linux-gnu/bits/types.h /usr/include/x86_64-linux-gnu/bits/typesizes.h /usr/include/x86_64-linux-gnu/bits/confname.h /usr/include/x86_64-linux-gnu/bits/getopt_posix.h /usr/include/x86_64-linux-gnu/bits/getopt_core.h /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h /usr/include/x86_64-linux-gnu/bits/types/time_t.h /usr/include/x86_64-linux-gnu/bits/types/timer_t.h /usr/include/x86_64-linux-gnu/bits/stdint-intn.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h /usr/include/pthread.h /usr/include/endian.h /usr/include/x86_64-linux-gnu/bits/endian.h /usr/include/sched.h /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h /usr/include/x86_64-linux-gnu/bits/types/clock_t.h /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h /usr/include/x86_64-linux-gnu/bits/sched.h /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/x86_64-linux-gnu/bits/setjmp.h /usr/include/assert.h /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__FILE.h /usr/include/x86_64-linux-gnu/bits/types/FILE.h /usr/include/x86_64-linux-gnu/bits/libio.h /usr/include/x86_64-linux-gnu/bits/_G_config.h /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h /usr/include/x86_64-linux-gnu/bits/stdio_lim.h /usr/include/x86_64-linux-gnu/bits/sys_errlist.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/bits/socket_type.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/x86_64-linux-gnu/asm/socket.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-10-15 13:56:24
+#  File has been updated.
+#  Successfully updated.
+
+include/parse.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.deps/db_manager.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-16 03:04:36.655558311
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/x86_64-linux-gnu/sys/mman.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+include/utils.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-08 15:40:58.126478436
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/stdc-predef.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/x86_64-linux-gnu/bits/mman-shared.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/sched.h:
+ 
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/ctype.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/bits/byteswap-16.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.deps/utils.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-11-16 03:04:36.239627903
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-12-16 06:04:55
+#  File has been updated.
+#  Successfully updated.
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=168/1024=16%, Rehash=0, Collisions=161/1889=9%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 193 / storage = 5853 B / avg = 30 B
+# current buf: size = 8162 B / used = 5853 B / count = 193 / avg = 30 B
+
+# strcache performance: lookups = 2648 / hit rate = 92%
+# hash-table stats:
+# Load=193/8192=2%, Rehash=0, Collisions=22/2648=1%
+# Finished Make data base on Tue Nov 16 03:04:48 2021
+
+ 

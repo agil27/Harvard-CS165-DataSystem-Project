@@ -1,0 +1,21 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/wyb/courses/cs165/project/cs165-project/src'
+mkdir -p .deps
+touch .deps/rebuildstamp
+gcc -std=c99 -g -ggdb3 -Wall -Wextra -pedantic -pthread -O0 -Iinclude -MD -MF .deps/client.d -MP -DSOCK_PATH=\"/tmp/cs165_unix_socket\" -O0 -o client.o -c client.c
+gcc -std=c99 -g -ggdb3 -Wall -Wextra -pedantic -pthread -O0 -Iinclude -MD -MF .deps/utils.d -MP -DSOCK_PATH=\"/tmp/cs165_unix_socket\" -O0 -o utils.o -c utils.c
+gcc -std=c99 -g -ggdb3 -Wall -Wextra -pedantic -pthread -O0 -Iinclude -MD -MF .deps/.d -MP -DSOCK_PATH=\"/tmp/cs165_unix_socket\" -o client client.o utils.o  
+gcc -std=c99 -g -ggdb3 -Wall -Wextra -pedantic -pthread -O0 -Iinclude -MD -MF .deps/server.d -MP -DSOCK_PATH=\"/tmp/cs165_unix_socket\" -O0 -o server.o -c server.c
+gcc -std=c99 -g -ggdb3 -Wall -Wextra -pedantic -pthread -O0 -Iinclude -MD -MF .deps/parse.d -MP -DSOCK_PATH=\"/tmp/cs165_unix_socket\" -O0 -o parse.o -c parse.c
+gcc -std=c99 -g -ggdb3 -Wall -Wextra -pedantic -pthread -O0 -Iinclude -MD -MF .deps/db_manager.d -MP -DSOCK_PATH=\"/tmp/cs165_unix_socket\" -O0 -o db_manager.o -c db_manager.c
+gcc -std=c99 -g -ggdb3 -Wall -Wextra -pedantic -pthread -O0 -Iinclude -MD -MF .deps/client_context.d -MP -DSOCK_PATH=\"/tmp/cs165_unix_socket\" -O0 -o client_context.o -c client_context.c
+gcc -std=c99 -g -ggdb3 -Wall -Wextra -pedantic -pthread -O0 -Iinclude -MD -MF .deps/table.d -MP -DSOCK_PATH=\"/tmp/cs165_unix_socket\" -O0 -o table.o -c table.c
+gcc -std=c99 -g -ggdb3 -Wall -Wextra -pedantic -pthread -O0 -Iinclude -MD -MF .deps/column.d -MP -DSOCK_PATH=\"/tmp/cs165_unix_socket\" -O0 -o column.o -c column.c
+gcc -std=c99 -g -ggdb3 -Wall -Wextra -pedantic -pthread -O0 -Iinclude -MD -MF .deps/io.d -MP -DSOCK_PATH=\"/tmp/cs165_unix_socket\" -O0 -o io.o -c io.c
+gcc -std=c99 -g -ggdb3 -Wall -Wextra -pedantic -pthread -O0 -Iinclude -MD -MF .deps/threadpool.d -MP -DSOCK_PATH=\"/tmp/cs165_unix_socket\" -O0 -o threadpool.o -c threadpool.c
+gcc -std=c99 -g -ggdb3 -Wall -Wextra -pedantic -pthread -O0 -Iinclude -MD -MF .deps/.d -MP -DSOCK_PATH=\"/tmp/cs165_unix_socket\" -o server server.o parse.o utils.o db_manager.o client_context.o table.o column.o io.o threadpool.o  
+make: Leaving directory '/home/wyb/courses/cs165/project/cs165-project/src'
+ 
+/bin/sh: 1: cannot create .deps/rebuildstamp: Permission denied
+/bin/sh: 1: cannot create .deps/_cc.d: Permission denied
+ 
